@@ -73,7 +73,7 @@ class WebScrapping:
         return self.status_code
 
 
-blog = WebScrapping(['http://digitalnasrbija.org'] , '//img/@src')
+blog = WebScrapping(['https://www.vladimircicovic.com'] , '//img/@src')
 
 result_list = None
 if blog.get_response_code() == 200:
